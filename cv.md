@@ -1,26 +1,34 @@
 # Aleksandr Ivanenko
+
 ***
+
 ## Contact information:
 * **Phone:** +375 29 288 63 11
 * **Telegram**: [@sancherezka](https://t.me/sancherezka)
 * **Discord:** Sanya-i#6840
 * **GitHub:**  [Sanya-I](https://github.com/Sanya-i)
 * **E-mail:** r-223@yandex.ru
+
 ***
 ## About me:
 I want to try myself in the profession of Front-end developer... 
+
 **I have:**
 * perseverance
 * Bringing things to a close
 * industriousness
 * purposefulness
+  
 ***
+
 ## Skills:
 * HTML
 * CSS
 * JS (basics)
 * VS Сode
-****
+
+***
+
 ## Code examples:
 ```
 function makePhrases() {
@@ -36,11 +44,15 @@ function makePhrases() {
  makePhrases();
  ```
  ***
+ 
  ## Education:
  **Belarusian National Technical University**
  Information technology and robotics
+
  ***
+
  ## Languages:
  * **Russian**
  * **English A1**
+
 ***
