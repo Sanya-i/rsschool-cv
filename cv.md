@@ -36,3 +36,11 @@ function makePhrases() {
  makePhrases();
  ```
  ***
+ ## Education:
+ **Belarusian National Technical University**
+ Information technology and robotics
+ ***
+ ## Languages:
+ * **Russian**
+ * **English A1**
+***
