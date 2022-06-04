@@ -42,16 +42,16 @@ function makePhrases() {
     console.log(phrase);
 }
  makePhrases();
- ```
- ***
+```
+***
  
- ## Education:
+## Education:
  **Belarusian National Technical University**
  Information technology and robotics
 
- ***
+***
 
- ## Languages:
+## Languages:
  * **Russian**
  * **English A1**
 
