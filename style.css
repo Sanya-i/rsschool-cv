@@ -12,13 +12,15 @@ body {
 
 
 }
-a {
-    text-decoration: none;
+a, a:link, a:visited, a:hover, a:active { 
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
 }
 
 .wrapp {
     box-sizing: border-box;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
     
 }
@@ -31,6 +33,19 @@ header {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
+    padding: 30px;
+    background: rgb(32, 173, 173);
     
 }
 
+.photo-name {
+display: flex;
+flex-wrap: wrap;
+background-color: rgb(79, 87, 94);
+}
+
+.name {
+  margin: 130px auto;
+  font-size: 30px;
+  color: rgb(32, 173, 173);
+}
