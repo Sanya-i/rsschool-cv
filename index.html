@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,31 +18,31 @@
             <nav class="header-nav">
                 <ul class="header-nav-li">
                     <li class="nav-item">
-                        <a href="#contacts" class="header-link">Contacts</a>
+                        <a href="#contacts" class="nav-link">Contacts</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about-me" class="header-link">About me</a>
+                        <a href="#about-me" class="nav-link">About me</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#Skills" class="header-link">Skills</a>
+                        <a href="#skills" class="nav-link">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#code" class="header-link">Code</a>
+                        <a href="#code" class="nav-link">Code</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#Education" class="header-link">Education</a>
+                        <a href="#education" class="nav-link">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#Languages" class="header-link">Languages</a>
+                        <a href="#languages" class="nav-link">Languages</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <main class="main">
+        <main class="main main-container">
             <section class="photo-name">
                 <div class="photo">
-                    <img class="aleksandr" src="elon.jpg" alt="photo">
+                    <img class="aleksandr" src="assets/img/elon.jpg" alt="photo">
                 </div>
                 <div class="name">
                     <h1>Aleksandr Ivanenko</h1>
@@ -52,7 +52,7 @@
             <div class="column-wrapp">
                 <div class="column-left">
                     <section class="contacts">
-                        <h2 class="contacts-title">Contacts</h2>
+                        <h2 class="contacts-title" id="contacts">Contacts</h2>
                         <ul class="contacts-wrapp">
                             <li class="phone">Phone: +375 29 288 63 11</li>
                             <li class="telegram">Telegram: <a href="https://t.me/sancherezka"
@@ -64,7 +64,7 @@
                         </ul>
                     </section>
                     <section class="skills">
-                        <h2 class="skills-title">Skills</h2>
+                        <h2 class="skills-title" id="skills">Skills</h2>
                         <ul class="skills-wrapp">
                             <li class="html">HTML</li>
                             <li class="css">CSS</li>
@@ -73,7 +73,7 @@
                         </ul>
                     </section>
                     <section class="languages">
-                        <h2 class="languages-title">Languages</h2>
+                        <h2 class="languages-title" id="languages">Languages</h2>
                         <ul class="languages-wrapp">
                             <li class="russian">Russian</li>
                             <li class="english">English (A1)</li>
@@ -82,21 +82,18 @@
                 </div>
                 <div class="column-right">
                     <section class="about-me">
-                        <h2 class="about-me-title">About me</h2>
-                        <p>rerrrrdisplay: flex;
-                            flex-direction: column;display: flex;
-                            flex-direction: column;display: flex;
-                            flex-direction: column;display: flex;
-                            flex-direction: column;display: flex;
-                            flex-direction: column;display: flex;
-                            flex-direction: column;display: flex;
-                            flex-direction: column;display: flex;
-                            flex-direction: column;display: flex;
-                            flex-direction: column;rrrr</p>
-
+                        <h2 class="about-me-title" id="about-me">About me</h2>
+                        <p class="text-about">Organized, technically minded. I have experience in remote technical support. I have to work in a team, take responsibility. Development for me is both a job and a hobby, so I spend all my free time studying Java Script.</p>
+                        <span class="qualities">Personal qualities:</span>
+                        <ul>
+                            <li class="item-qualities">Learnability</li>
+                            <li class="item-qualities">Industriousness</li>
+                            <li class="item-qualities">Purposefulness</li>
+                            <li class="item-qualities">Diligence</li>
+                        </ul>
                     </section>
                     <section class="code">
-                        <h2 class="code-title">Code examples</h2>
+                        <h2 class="code-title" id="code">Code examples</h2>
                         <pre>
                             <code>
                                 
@@ -116,7 +113,7 @@
 
                     </section>
                     <section class="education">
-                        <h2 class="education-title">Education</h2>
+                        <h2 class="education-title" id="education">Education</h2>
                         <p>Belarusian National Technical University - Information technology and robotics</p>
 
                     </section>
@@ -126,7 +123,7 @@
         </main>
         <footer class="footer">
             <div class="footer-mygithub">
-                <img src="github.svg" width="25" height="25" alt="mygithub">
+                <img src="assets/svg/github.svg" width="25" height="25" alt="mygithub">
                 <a href="https://github.com/Sanya-i" class="header-link">My GitHub</a>
             </div>
             <div>
@@ -134,7 +131,7 @@
             </div>
             <div>
                 <a href="https://rs.school/js/">
-                    <img src="rs_school_js.svg" width="105" height="75" alt="rsschool">
+                    <img src="assets/svg/rs_school_js.svg" width="105" height="75" alt="rsschool">
                 </a>
             </div>
         </footer>
