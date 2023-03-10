@@ -1,0 +1,291 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(0, 195, 255);
+ 
+  
+}
+
+
+a.nav-link,
+a.nav-link:link,
+a.nav-link:visited,
+a.nav-link:hover,
+a.nav-link:active,
+.hub-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+}
+
+
+.wrapp {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: rgb(72, 71, 85);
+    background-position: center;
+    background-size: cover;
+}
+
+
+header {
+    margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+    header {
+        display: none;
+    }
+}
+li {
+    list-style-type: none;
+}
+
+
+.header-nav-li {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 5px;
+    background: rgb(0, 195, 255);
+}
+
+.photo-name {
+    display: flex;
+}
+@media screen and (max-width: 768px) {
+    .photo-name {flex-direction: column;
+    }
+    img {
+        border-radius: 0px 0px 30px 30px;
+    }
+}
+
+.aleksandr {
+    width: 100%;
+}
+
+
+.name {
+    text-align: center;
+    font-size: 200%;
+    margin: auto;
+}
+@media screen and (max-width: 768px) {
+    .name {
+        
+        margin: 40px auto;
+    }
+}
+main {
+    padding-bottom: 20px;
+
+}
+
+
+h2 {
+    background-color: rgb(0, 195, 255);
+    border: 10px solid transparent;
+    border-left: 15px solid rgb(4, 156, 245);
+    padding-left: 12px;
+    margin: 30px 0px;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        border-right: 15px solid rgb(4, 156, 245);
+    }
+}
+.column-wrapp {
+    display: flex;
+}
+
+
+a.contact-link,
+a.contact-link:link,
+a.contact-link:visited,
+a.contact-link:hover,
+a.contact-link:active {
+    text-decoration: none;
+    color: rgb(0, 195, 255);
+}
+
+
+.skills-wrapp,
+.contacts-wrapp,
+.languages-wrapp {
+    padding-left: 27px;
+    font-size: 20px;
+}
+
+
+.text-about {
+    padding-bottom: 12px;
+}
+
+
+.qualities {
+    color: white;
+    background-color: rgb(0, 195, 255);
+}
+
+
+.item-qualities {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.column-wrapp {
+    display: flex;
+}
+@media screen and (max-width: 768px) {
+    .column-wrapp {
+flex-direction: column;
+    }
+    .qualities {
+        padding-left: 27px;
+    }
+}
+.column-left {
+    min-width: 391px;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+    .column-left {
+        min-width: 0px;
+    }}
+.column-right {
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 950px) {
+    pre {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .column-right {
+        margin-left: 0px;
+    }
+    p {
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+    ul {
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+    pre {
+        padding-left: 27px;
+        font-size: 13px;
+    }
+}
+
+.blue {
+    color: blue;
+}
+.yellow {
+    color: yellow;
+}
+.light-blue {
+    color: rgb(8, 170, 245);
+}
+.orange {
+    color: orange;
+}
+
+.My__project {
+    color: rgb(0, 195, 255);
+}
+.project-wrapp {
+    display: flex;
+
+flex-wrap: wrap;
+gap: 20px 20px;
+padding-left:  27px;
+}
+
+.travel {
+   
+}
+
+.project-screen {
+max-width: 300px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(50, 49, 51);
+    padding: 30px 50px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    font-size: 26px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 20px 30px;
+    }
+}
