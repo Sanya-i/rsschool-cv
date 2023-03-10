@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapp">
+        <header>
+            <nav class="header-nav">
+                <ul class="header-nav-li">
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-me" class="nav-link">About me</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#code" class="nav-link">Code</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#languages" class="nav-link">Languages</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main main-container">
+            <section class="photo-name">
+                <div class="photo">
+                    <img class="aleksandr" src="assets/img/elon.jpg" alt="photo">
+                </div>
+                <div class="name">
+                    <h1>Aleksandr Ivanenko</h1>
+                    <p>junior frontend developer</p>
+                </div>
+            </section>
+            <div class="column-wrapp">
+                <div class="column-left">
+                    <section class="contacts">
+                        <h2 class="contacts-title" id="contacts">Contacts</h2>
+                        <ul class="contacts-wrapp">
+                            <li class="phone">Phone: +375 29 288 63 11</li>
+                            <li class="telegram">Telegram: <a href="https://t.me/sancherezka"
+                                    class="contact-link">@sancherezka</a></li>
+                            <li class="github">GitHub: <a href="https://github.com/Sanya-i"
+                                    class="contact-link">Sanya-I</a></li>
+                            <li class="discord">Discord: Sanya-i#6840</li>
+                            <li class="email">E-mail: r-223@yandex.ru</li>
+                        </ul>
+                    </section>
+                    <section class="skills">
+                        <h2 class="skills-title" id="skills">Skills</h2>
+                        <ul class="skills-wrapp">
+                            <li class="html">HTML</li>
+                            <li class="css">CSS</li>
+                            <li class="js">JS (basics)</li>
+                            <li class="vscode">VS Сode</li>
+                        </ul>
+                    </section>
+                    <section class="languages">
+                        <h2 class="languages-title" id="languages">Languages</h2>
+                        <ul class="languages-wrapp">
+                            <li class="russian">Russian</li>
+                            <li class="english">English (A1)</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="column-right">
+                    <section class="about-me">
+                        <h2 class="about-me-title" id="about-me">About me</h2>
+                        <p class="text-about">Organized, technically minded. I have experience in remote technical
+                            support. I have to work in a team, take responsibility. Development for me is both a job and
+                            a hobby, so I spend all my free time studying Java Script.</p>
+                        <span class="qualities">Personal qualities:</span>
+                        <ul>
+                            <li class="item-qualities">Learnability</li>
+                            <li class="item-qualities">Industriousness</li>
+                            <li class="item-qualities">Purposefulness</li>
+                            <li class="item-qualities">Diligence</li>
+                        </ul>
+                    </section>
+                    <section class="code">
+                        <h2 class="code-title" id="code">Code examples</h2>
+                        <pre>
+                            <code>
+<span class="blue">function </span><span class="yellow">makePhrases</span>() {
+<span class="blue">let</span> <span class="light-blue">words1</span> = [<span class="orange">"24/7"</span>, <span class="orange">"multi-tier"</span>, <span class="orange">"30,000 foot"</span>;
+<span class="blue">let</span> <span class="light-blue">words2</span> = [<span class="orange">"empowered"</span>, <span class="orange">"value-added"</span>, <span class="orange">"oriented"</span>;
+<span class="blue">let</span> <span class="light-blue">rand1</span> = <span class="light-blue">Math</span>.<span class="yellow">floor</span>(<span class="light-blue">Math</span>.<span class="yellow">random</span>() * <span class="light-blue">words1</span>.<span class="light-blue">length</span>);
+<span class="blue">let</span> <span class="light-blue">rand2</span> = <span class="light-blue">Math</span>.<span class="yellow">floor</span>(<span class="light-blue">Math</span>.<span class="yellow">random</span>() * <span class="light-blue">words2</span>.<span class="light-blue">length</span>);
+<span class="blue">let</span> <span class="light-blue">phrase</span> = <span class="light-blue">words1</span>[<span class="light-blue">rand1</span>] + " " + <span class="light-blue">words2</span>[<span class="light-blue">rand2</span>];
+<span class="light-blue">console</span>.<span class="yellow">log</span>(<span class="light-blue">phrase</span>);
+}
+<span class="yellow">makePhrases</span>();
+                            </code>
+                        </pre>
+                    </section>
+                    <section class="project">
+                        <h2 class="project-title" id="project">My project</h2>
+                        <div class="project-wrapp">
+                            <div class="travel"><a href="https://sanya-i.github.io/Travel/"><img
+                                        src="./assets/img/2023-02-19_19-58-34.png"></a>
+                            </div>
+                            <div class="travel"><a href="https://sanya-i.github.io/Plants/"><img
+                                        src="./assets/img/2023-02-19_20-17-32.png"></a>
+                            </div>
+                            <div class="travel"><a href="https://sanya-i.github.io/Online-zoo/"><img
+                                        src="./assets/img/2023-02-19_20-27-04.png"></a>
+                            </div>
+                            <div class="travel"><a href="https://sanya-i.github.io/momentum/"><img
+                                        src="./assets/img/2023-02-19_20-58-49.png"></a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="education">
+                        <h2 class="education-title" id="education">Education</h2>
+                        <p>Belarusian National Technical University - Information technology and robotics</p>
+
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-mygithub">
+                <img src="assets/svg/github.svg" width="25" height="25" alt="mygithub">
+                <a href="https://github.com/Sanya-i" class="hub-link">My GitHub</a>
+            </div>
+            <div>
+                <h3>2022</h3>
+            </div>
+            <div>
+                <a href="https://rs.school/js/">
+                    <img src="assets/svg/rs_school_js.svg" width="105" height="75" alt="rsschool">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
