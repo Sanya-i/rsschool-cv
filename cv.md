@@ -11,6 +11,7 @@
 ***
 ## About me:
 I want to try myself in the profession of Front-end developer... 
+
 **I have:**
 * perseverance
 * Bringing things to a close
@@ -40,4 +41,16 @@ function makePhrases() {
 }
  makePhrases();
 ```
+***
+ 
+## Education:
+ **Belarusian National Technical University**
+ Information technology and robotics
+
+***
+
+## Languages:
+ * **Russian**
+ * **English A1**
+
 ***
